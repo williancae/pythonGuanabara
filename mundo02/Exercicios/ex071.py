@@ -1,7 +1,8 @@
+'''Inicinando variaveis'''
 pro = cont = contHomem = menores = h = 0
 idade = 0
 sexo = ''
-while True:
+while True: '''Loop Infinito'''
     print('======= Cadastro ======')
     idade = int(input('Idade: ').strip())
 

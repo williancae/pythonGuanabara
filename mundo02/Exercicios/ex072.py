@@ -1,7 +1,7 @@
+'''Iniciando Variaveis'''
 indice = total = menor = cont = prodBarato = 0
 while True:
-
-    nomeProd = str(input('Nome Produto: '))
+    produto = str(input('Nome Produto: '))
     preco = float(input('Qual o preço: '))
     total += preco
     if preco > 1000:
@@ -10,7 +10,7 @@ while True:
         menor = preco
     elif preco < menor:
         menor = preco
-        prodBarato = nomeProd
+        prodBarato = produto
 
     indice += 1
     continuar = str(input('Continuar [S/N]: ').strip().upper())
