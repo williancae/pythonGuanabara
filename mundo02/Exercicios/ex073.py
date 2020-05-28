@@ -7,5 +7,8 @@
 #     quantidadeNotas = int(valor/nota)
 #     print("{} nota(s) de R$ {},00".format(quantidadeNotas,nota))
 #     valor -= quantidadeNotas * nota
+#criar um painel de saque sem ultilizar lista
+
+
 valor = int(input('Digite um valor de saque: '))
 total = valor
