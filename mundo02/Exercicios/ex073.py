@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # exercicicio 1018 - Cédulas  URI
 # valor = int(input())
 # print(valor)
@@ -9,10 +8,6 @@
 #     print("{} nota(s) de R$ {},00".format(quantidadeNotas,nota))
 #     valor -= quantidadeNotas * nota
 #criar um painel de saque sem ultilizar lista
-
-
-valor = int(input('Digite um valor de saque: '))
-=======
 """
 EXERCÍCIO 071: Simulador de Caixa Eletrônico
 Crie um programa que simule o funcionamento de um caixa eletrônico. No início, pergunte ao
@@ -24,7 +19,7 @@ print('=' * 30)
 print(f'{"BANCO CEV":^30}')
 print('=' * 30)
 valor = int(input('Que valor você quer sacar? R$ '))
->>>>>>> 13a70f29656d05bf854326a760349c53af5cd1ae
+
 total = valor
 ced = 50
 totced = 0
