@@ -1,0 +1,5 @@
+tupla = ('Leite', 4, 'Nescau', 5.6, 'Pão', 4.6, 'Manteiga', 5.6, 'Margarina', 6, 'Café', 4.6)
+print('-'*30)
+print('{:^30}'.format('Listagem'))
+print('-'*30)
+print(f'{tupla[0]:->30}')
