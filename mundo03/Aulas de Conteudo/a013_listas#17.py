@@ -1,7 +1,7 @@
 lista = ['0','1','2','3','4']
-lista.append('final')
+lista.append('final') #adiciona no final da lista
 print(lista)
-lista.insert(2,'posição')
+lista.insert(2,'posição') #diciona na posição do indice informado
 print(lista)
 lista.pop(3) # ou del lista[3]
 print(lista)
@@ -10,9 +10,9 @@ print(lista)
 print('\nValores')
 valores = [1,2,4,5,2,1,3,56]
 print(valores)
-valores.sort()
+valores.sort() # organiza a lista ordem
 print(valores)
-valores.sort(reverse=True)
+valores.sort(reverse=True) #orgniza e inverte
 print(valores)
 
 
