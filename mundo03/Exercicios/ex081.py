@@ -1,11 +1,16 @@
-numero = []
+numero = list()
+r = ''
+n = 0
 while True:
     n = int(input('Digite um valor: '))
     if n not in numero:
-        numero.append(n)
+        numero.append(n) #Adiciona no final da lista
+        print('Valor Adicionado!')
     else:
-        r = str(input(';quer continuar'))
+        print('Valor Duplicado!')
+    r = str(input('Quer continuar [S/N]: '))
     if r in 'Nn':
         break
-print('-+'*30)
-print(f'Voce digitou {numero.sort}')
+print('-+'*20)
+print(f'Voce digitou {numero}!')
+print('-+'*20)
