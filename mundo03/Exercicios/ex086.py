@@ -19,3 +19,4 @@ print(f'\nO menor peso foi de {min(peso):.2f}Kg. Peso de ', end='')
 for p in povo:
     if p[1] == min(peso):
         print(f'{p[0]} ', end='')
+print('\n')
