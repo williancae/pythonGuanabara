@@ -1,4 +1,3 @@
 """ 
     Listas aula 02
-    
 """
