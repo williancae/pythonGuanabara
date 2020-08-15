@@ -8,4 +8,3 @@ for i in range(0, quant):
 jogadores['golsPartidas'] = golsPartidas
 jogadores['totalGols'] = sum(golsPartidas)
 print(jogadores)
-
