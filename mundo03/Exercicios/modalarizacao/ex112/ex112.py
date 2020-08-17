@@ -1,4 +1,4 @@
-import ex112modulosPacotes as a
+from utilidade import moeda as a
 
 p = float(input('Digite o Preço: '))
-a.resumo(p, 50, 50)
+a.resumo(p, 10, 13)
